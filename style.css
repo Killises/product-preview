@@ -1,0 +1,108 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: hwb(0 78% 22%);
+    --gray: rgb(143, 143, 152);
+    --green: rgb(26, 133, 104);
+    --sm: 14px;
+    --md: 16px;
+    --lg: 32px;
+}
+    
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: rgb(244, 234, 226);
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card2{
+    display: flex;
+}
+.img img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+    
+}
+.inf{
+    display: grid;
+    width: 300px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: start;
+}
+.title{
+    color: #000000;
+    font-family: 'Fraunces', serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: var(--lg);
+    margin: 0%;
+}
+.cat{
+    color: var(--very-light-pink);
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: var(--sm);
+    margin: 0% 0 15px 0;
+}
+.description{
+    color: var(--gray);
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: var(--sm);
+    margin: 21px 0 20px 0;
+}
+.prices{
+    display: flex;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.price{
+    color: var(--green);
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: var(--lg);
+    font-family: 'Fraunces', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.discount{
+    color: var(--gray);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: var(--sm);
+}
+.add{
+    align-items: center;
+    color: #FFFFFF;
+    background-color: var(--green);
+    border-radius: 5px;
+    padding: 0 30px 0 30px;
+    margin-left: 30px;
+    font-size: var(--sm);
+    border: 0ch;
+    height: 45px;
+    width: 230px;
+
+}
